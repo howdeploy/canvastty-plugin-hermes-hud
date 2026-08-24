@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Hermes HUD</title>
+  </head>
+  <body>
+    <main class="hermes-widget" data-state="loading">
+      <header class="widget-header">
+        <div class="identity">
+          <span class="status-dot" aria-hidden="true"></span>
+          <div>
+            <p class="eyebrow">Hermes Desktop</p>
+            <h1 id="heading">HUD control</h1>
+          </div>
+        </div>
+        <span class="state-label" id="state-label">Loading</span>
+      </header>
+
+      <p class="status-message" id="status-message" aria-live="polite">Reading live desktop state…</p>
+
+      <button class="toggle" id="toggle" type="button" disabled>
+        <span id="action-label">Please wait</span>
+        <span class="action-mark" aria-hidden="true">HUD</span>
+      </button>
+
+      <p class="error-message" id="error-message" role="alert" hidden></p>
+    </main>
+
+    <script src="canvastty-plugin://host/sdk.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
