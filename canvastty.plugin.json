@@ -2,12 +2,13 @@
   "apiVersion": 1,
   "id": "com.howdeploy.hermes-hud",
   "name": "Hermes HUD",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "One-button control for opening the installed Hermes Desktop in its real HUD mode and closing the app.",
   "description.ru": "Виджет с одной кнопкой: запускает установленный Hermes Desktop в настоящем HUD-режиме и закрывает приложение.",
   "author": "howdeploy",
   "homepage": "https://github.com/howdeploy/canvastty-plugin-hermes-hud",
   "platforms": ["canvastty"],
+  "minHostVersion": "1.2.7",
   "permissions": ["hermes:hud"],
   "contributions": [
     {

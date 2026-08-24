@@ -4,7 +4,7 @@ Hermes HUD управляет установленным Hermes Desktop прям
 
 ## Требования
 
-- CanvasTTY с разрешением плагинов `hermes:hud`.
+- CanvasTTY 1.2.7 или новее.
 - Hermes CLI, доступный CanvasTTY.
 - Hermes Desktop с локальным control contract: `hermes desktop --skip-build --hud` и `hermes desktop --skip-build --quit`.
 
