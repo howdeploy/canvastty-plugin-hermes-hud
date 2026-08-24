@@ -6,6 +6,7 @@
   "description": "One-button control for opening the installed Hermes Desktop in its real HUD mode and closing the app.",
   "description.ru": "Виджет с одной кнопкой: запускает установленный Hermes Desktop в настоящем HUD-режиме и закрывает приложение.",
   "author": "howdeploy",
+  "homepage": "https://github.com/howdeploy/canvastty-plugin-hermes-hud",
   "platforms": ["canvastty"],
   "permissions": ["hermes:hud"],
   "contributions": [
